@@ -2,11 +2,11 @@ public class Sort0and1{
 
 
     public static void main(String[] args) {
-        int[] arr = {1, 0, 1, 0, 1, 0, 0, 1, 0, 1};
+        int[] arr = {1, 0, 1, 0, 1, 0, 1, 1, 0, 1};
 
         int first = 0;
         int last = arr.length-1;
-        
+
         while(first<last){
             if(arr[first] == 0 && arr[last] == 1){
                 first++;
